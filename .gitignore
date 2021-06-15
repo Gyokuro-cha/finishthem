@@ -35,8 +35,16 @@ build/Release
 # Dependency directories
 # node_modules
 jspm_packages
-!/node_modules/
-# !node_modules/@lekoarts
+node_modules/*
+!node_modules/**/
+node_modules/@lekoarts/*
+!node_modules/@lekoarts/**/
+# node_modules/@lekoarts/*
+# application/*
+# !application/**/
+# application/language/*
+# !application/language/**/
+# !application/language/gr/**
 
 
 # Typescript v1 declaration files
